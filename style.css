@@ -64,8 +64,8 @@ picture {
 
 .image-container {
 	max-width: 460px;
-	padding: 30px;
-	padding-bottom: 20px;
+	padding: 18px;
+	padding-bottom: 25px;
 }
 
 .image-container img {
@@ -77,21 +77,23 @@ picture {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0px 45px 45px 45px;
+	padding: 0px 35px 32px 35px;
 	text-align: center;
-	margin: 10px auto;
+	margin-bottom: 8px;
 }
 
 .text-container h2:first-child {
+	text-align: center;
 	color: var(--darkblue);
 	font-size: 2rem;
 	padding-bottom: 18px;
-	font-weight: bold;
+	font-weight: 900;
 }
 .text-container p:nth-child(2) {
 	color: var(--grayishblue);
 	font-size: 1.5rem;
 	font-weight: 500;
+	padding-inline: 10px;
 }
 
 .attribution {
